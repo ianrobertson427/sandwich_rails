@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Celeb.create(name: "Cher", net: 305000000)
+Country.create(name: "Japan", ctc: 1869, sqft: 145882, pop: 126500000)
