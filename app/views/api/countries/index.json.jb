@@ -1,0 +1,8 @@
+@countries.map do |country|
+  {
+    id: country.id,
+    ctc: country.ctc,
+    sqft: country.sqft,
+    pop: country.pop,
+  }
+end

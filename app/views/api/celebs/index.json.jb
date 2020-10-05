@@ -1,0 +1,7 @@
+@celebs.map do |celeb|
+  {
+    id: celeb.id,
+    name: celeb.name,
+    net: celeb.net,
+  }
+end
