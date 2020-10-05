@@ -1,2 +1,8 @@
 @result
 @final_result
+
+{
+
+  message: "This Celeb can cover #{@final_result} times the country of ",
+
+}
