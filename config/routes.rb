@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   namespace :api do
     get "/celebs" => "celebs#index"
     get "/countries" => "countries#index"
+    get "/calculator" => "calculator#average"
   end
 end
